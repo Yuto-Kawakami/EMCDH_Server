@@ -175,6 +175,7 @@ STATIC_URL = '/static/'
 # https://github.com/ottoyiu/django-cors-headers 
 CORS_ORIGIN_WHITELIST = (
     # 'powerful-woodland-67995.herokuapp.com',
+    'radiant-basin-33136.herokuapp.com',
     'localhost:3000',
     'localhost:3001',
     'localhost:8000',
