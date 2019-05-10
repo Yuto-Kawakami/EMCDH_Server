@@ -186,7 +186,7 @@ CORS_ORIGIN_WHITELIST = (
 )
 
 ### heroku configuration
-import heroku
+import django_heroku
 django_heroku.settings(locals())
 
 # Parse database configuration from $DATABASE_URL
